@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /root/tools/vpslist/
 git pull
 ip=`curl -s http://whatismyip.akamai.com/`
 mem=`free -h|grep Mem|awk "{print \\\$2}"`
